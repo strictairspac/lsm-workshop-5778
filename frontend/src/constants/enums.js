@@ -1,1 +1,1 @@
-export const ROLES={admin:'管理员',operator:'操作员',viewer:'观察员'};export const STATUSES={queued:'排队中',running:'合并中',passed:'Oracle 一致',failed:'执行失败'};export const OPERATIONS={put:'写入',delete:'墓碑删除'};
+export const ROLES={admin:'管理员',operator:'操作员',viewer:'观察员'};export const STATUSES={queued:'排队中',running:'合并中',passed:'Oracle 一致',failed:'执行失败'};export const OPERATIONS={put:'写入',delete:'墓碑删除'};export const MIGRATION_STATUSES={pending:'待搬迁',copying:'复制中',switched:'已切换'};export const MIGRATION_PHASES={seed:'批次初始',before_switch:'切换前写入',after_switch:'切换后写入'};

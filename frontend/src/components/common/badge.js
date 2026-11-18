@@ -1,1 +1,1 @@
-import{STATUSES}from'../../constants/enums.js';import{esc}from'../../utils/html.js';export const badge=s=>'<span class="badge '+esc(s)+'">'+esc(STATUSES[s]||s)+'</span>';
+import{STATUSES,MIGRATION_STATUSES}from'../../constants/enums.js';import{esc}from'../../utils/html.js';export const badge=s=>'<span class="badge '+esc(s)+'">'+esc(STATUSES[s]||MIGRATION_STATUSES[s]||s)+'</span>';

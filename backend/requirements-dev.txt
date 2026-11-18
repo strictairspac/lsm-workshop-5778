@@ -1,0 +1,4 @@
+-r requirements.txt
+# 仅本地验收测试使用，不进后端镜像
+pytest==8.3.4
+httpx==0.28.1
